@@ -10,5 +10,6 @@ function babel ( code, options ) {
 babel.id = 'babel';
 
 babel.defaults = {
-	accept: '.js'
+	accept: ['.js', '.es6'],
+	ext: 'js'
 };
